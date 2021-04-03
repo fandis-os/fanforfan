@@ -1,0 +1,55 @@
+{
+  "name": "fanforfan",
+  "version": "0.1.0",
+  "homepage": "http://fanforfan.online/",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/user-event": "^12.8.3",
+    "bootstrap": "^4.6.0",
+    "headroom.js": "^0.12.0",
+    "moment": "^2.29.1",
+    "nouislider": "^14.6.4",
+    "nouislider-react": "^3.4.0",
+    "react": "^17.0.1",
+    "react-bootstrap": "^1.5.2",
+    "react-datetime": "^3.0.4",
+    "react-dom": "^17.0.1",
+    "react-headroom": "^3.1.0",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "reactstrap": "^8.9.0",
+    "sass": "^1.32.8",
+    "web-vitals": "^1.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --coverage", 
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@testing-library/react": "^11.2.5",
+    "jest-dom": "^4.0.0",
+    "react-test-render": "^1.1.2"
+  }
+}
